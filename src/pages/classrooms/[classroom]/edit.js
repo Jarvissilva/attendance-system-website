@@ -36,7 +36,7 @@ const EditClassroom = ({ classroom }) => {
 
   const deleteClassroom = async () => {
     const res = await fetch(
-      `http://localhost:3000/api/classrooms/${classroom._id}/delete`,
+      `https://attendance-system-jarvis-silva.vercel.app/api/classrooms/${classroom._id}/delete`,
       {
         method: "delete",
       }

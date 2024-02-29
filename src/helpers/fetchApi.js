@@ -1,7 +1,7 @@
 const fetchApi = async (endpoint, method, data) => {
   try {
     let response;
-    const url = `http://localhost:3000/api${endpoint}`;
+    const url = `https://attendance-system-jarvis-silva.vercel.app/api${endpoint}`;
 
     if (method === "POST") {
       response = await fetch(url, {
